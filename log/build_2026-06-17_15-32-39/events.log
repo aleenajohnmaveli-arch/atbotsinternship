@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000439] (arms) JobQueued: {'identifier': 'arms', 'dependencies': OrderedDict()}
+[0.000504] (lidar) JobQueued: {'identifier': 'lidar', 'dependencies': OrderedDict()}
+[0.000577] (wheels) JobQueued: {'identifier': 'wheels', 'dependencies': OrderedDict()}
+[0.000608] (arms) JobStarted: {'identifier': 'arms'}
+[0.005811] (lidar) JobStarted: {'identifier': 'lidar'}
+[0.008691] (wheels) JobStarted: {'identifier': 'wheels'}
+[0.014503] (arms) JobProgress: {'identifier': 'arms', 'progress': 'cmake'}
+[0.015370] (arms) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aleena_ws/src/arms', '-DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/arms'], 'cwd': '/home/user/aleena_ws/build/arms', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'user'), ('SSH_AGENT_PID', '33751'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1704'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Acer-laptop:@/tmp/.ICE-unix/1675,unix/Acer-laptop:/tmp/.ICE-unix/1675'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fbce62e_529c_48d7_8400_1d06ea447f95'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJB9Q3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX2fr30v/agent.33750'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/aleena_ws/build/arms'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.019438] (lidar) JobProgress: {'identifier': 'lidar', 'progress': 'cmake'}
+[0.020853] (lidar) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aleena_ws/src/lidar', '-DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/lidar'], 'cwd': '/home/user/aleena_ws/build/lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'user'), ('SSH_AGENT_PID', '33751'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1704'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Acer-laptop:@/tmp/.ICE-unix/1675,unix/Acer-laptop:/tmp/.ICE-unix/1675'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fbce62e_529c_48d7_8400_1d06ea447f95'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJB9Q3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX2fr30v/agent.33750'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/aleena_ws/build/lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.033469] (wheels) JobProgress: {'identifier': 'wheels', 'progress': 'cmake'}
+[0.037483] (wheels) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aleena_ws/src/wheels', '-DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/wheels'], 'cwd': '/home/user/aleena_ws/build/wheels', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'user'), ('SSH_AGENT_PID', '33751'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1704'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Acer-laptop:@/tmp/.ICE-unix/1675,unix/Acer-laptop:/tmp/.ICE-unix/1675'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fbce62e_529c_48d7_8400_1d06ea447f95'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJB9Q3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX2fr30v/agent.33750'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/aleena_ws/build/wheels'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.098683] (-) TimerEvent: {}
+[0.148492] (arms) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.149526] (lidar) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.164472] (wheels) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198805] (-) TimerEvent: {}
+[0.271698] (arms) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.285109] (arms) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.293329] (wheels) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.298936] (-) TimerEvent: {}
+[0.299739] (lidar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.310526] (wheels) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.316862] (lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399072] (-) TimerEvent: {}
+[0.437560] (arms) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.445074] (wheels) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.458999] (wheels) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.459627] (wheels) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.460523] (wheels) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.461351] (arms) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.462102] (arms) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.463209] (arms) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.466431] (wheels) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.470565] (arms) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.473793] (lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499195] (-) TimerEvent: {}
+[0.503636] (lidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.504188] (lidar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.505545] (lidar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.512799] (lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599352] (-) TimerEvent: {}
+[0.621255] (arms) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.648548] (wheels) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.650025] (arms) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.654481] (arms) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.654773] (arms) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.661649] (wheels) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.662099] (wheels) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.662917] (wheels) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.676310] (arms) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.676607] (arms) StdoutLine: {'line': b'See also "/home/user/aleena_ws/build/arms/CMakeFiles/CMakeOutput.log".\n'}
+[0.679473] (wheels) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.679870] (wheels) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.680128] (wheels) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.680337] (wheels) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.680680] (wheels) StderrLine: {'line': b'\n'}
+[0.680939] (wheels) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.681155] (wheels) StderrLine: {'line': b'  any of the following names:\n'}
+[0.681353] (wheels) StderrLine: {'line': b'\n'}
+[0.681600] (wheels) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.681823] (wheels) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.682019] (wheels) StderrLine: {'line': b'\n'}
+[0.682209] (wheels) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.682368] (arms) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.683803] (arms) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.683935] (arms) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.684052] (arms) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.684162] (arms) StderrLine: {'line': b'\n'}
+[0.684417] (arms) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.685161] (arms) StderrLine: {'line': b'  any of the following names:\n'}
+[0.685373] (arms) StderrLine: {'line': b'\n'}
+[0.686798] (arms) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.688036] (arms) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.688697] (arms) StderrLine: {'line': b'\n'}
+[0.688987] (arms) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.689777] (arms) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.690008] (arms) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.690202] (arms) StderrLine: {'line': b'  has been installed.\n'}
+[0.690390] (arms) StderrLine: {'line': b'\n'}
+[0.691760] (arms) StderrLine: {'line': b'\x1b[0m\n'}
+[0.692177] (wheels) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.693057] (wheels) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.693415] (wheels) StderrLine: {'line': b'  has been installed.\n'}
+[0.694096] (wheels) StderrLine: {'line': b'\n'}
+[0.694369] (wheels) StderrLine: {'line': b'\x1b[0m\n'}
+[0.695594] (wheels) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.695863] (wheels) StdoutLine: {'line': b'See also "/home/user/aleena_ws/build/wheels/CMakeFiles/CMakeOutput.log".\n'}
+[0.696045] (wheels) CommandEnded: {'returncode': 1}
+[0.696702] (arms) CommandEnded: {'returncode': 1}
+[0.699478] (-) TimerEvent: {}
+[0.710412] (lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.732569] (lidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.734283] (lidar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.735144] (lidar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.735732] (wheels) JobEnded: {'identifier': 'wheels', 'rc': 1}
+[0.737559] (arms) JobEnded: {'identifier': 'arms', 'rc': 'SIGINT'}
+[0.755974] (lidar) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.756173] (lidar) StdoutLine: {'line': b'See also "/home/user/aleena_ws/build/lidar/CMakeFiles/CMakeOutput.log".\n'}
+[0.758676] (lidar) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.758908] (lidar) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.759012] (lidar) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.759106] (lidar) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.759193] (lidar) StderrLine: {'line': b'\n'}
+[0.759279] (lidar) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.759366] (lidar) StderrLine: {'line': b'  any of the following names:\n'}
+[0.759500] (lidar) StderrLine: {'line': b'\n'}
+[0.759591] (lidar) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.759676] (lidar) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.759757] (lidar) StderrLine: {'line': b'\n'}
+[0.759842] (lidar) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.759927] (lidar) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.760009] (lidar) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.760090] (lidar) StderrLine: {'line': b'  has been installed.\n'}
+[0.760174] (lidar) StderrLine: {'line': b'\n'}
+[0.760255] (lidar) StderrLine: {'line': b'\x1b[0m\n'}
+[0.764475] (lidar) JobEnded: {'identifier': 'lidar', 'rc': 'SIGINT'}
+[0.775441] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/user/aleena_ws/build/lidar': /usr/bin/cmake /home/user/aleena_ws/src/lidar -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/lidar
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.293s] -- The CXX compiler identification is GNU 11.4.0
+[0.310s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.497s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.499s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.704s] -- Detecting CXX compiler ABI info - done
+[0.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.728s] -- Detecting CXX compile features
+[0.729s] -- Detecting CXX compile features - done
+[0.750s] -- Configuring incomplete, errors occurred!
+[0.750s] See also "/home/user/aleena_ws/build/lidar/CMakeFiles/CMakeOutput.log".
+[0.752s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.752s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.752s]   has asked CMake to find a package configuration file provided by
+[0.753s]   "ament_cmake", but CMake did not find one.
+[0.753s] 
+[0.753s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.753s]   any of the following names:
+[0.753s] 
+[0.753s]     ament_cmakeConfig.cmake
+[0.753s]     ament_cmake-config.cmake
+[0.753s] 
+[0.753s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.753s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.753s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.754s]   has been installed.
+[0.754s] 
+[0.754s] [0m

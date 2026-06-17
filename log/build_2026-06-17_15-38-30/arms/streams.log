@@ -1,0 +1,55 @@
+[0.030s] Invoking command in '/home/user/aleena_ws/build/arms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aleena_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/arms
+[0.382s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.102s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.462s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.887s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.898s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.919s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.299s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.978s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.132s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.221s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.322s] -- Looking for pthread.h
+[3.911s] -- Looking for pthread.h - found
+[3.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.133s] -- Found Threads: TRUE  
+[4.300s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.427s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.584s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.876s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.883s] -- Added test 'lint_cmake' to check CMake code style
+[4.884s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.890s] -- Added test 'xmllint' to check XML markup files
+[4.902s] -- Configuring done
+[4.923s] -- Generating done
+[4.931s] -- Build files have been written to: /home/user/aleena_ws/build/arms
+[4.953s] Invoked command in '/home/user/aleena_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aleena_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/arms
+[4.957s] Invoking command in '/home/user/aleena_ws/build/arms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aleena_ws/build/arms -- -j4 -l4
+[5.051s] Invoked command in '/home/user/aleena_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aleena_ws/build/arms -- -j4 -l4
+[5.054s] Invoking command in '/home/user/aleena_ws/build/arms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aleena_ws/build/arms
+[5.071s] -- Install configuration: ""
+[5.071s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/scripts
+[5.071s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/scripts/arms.py
+[5.074s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/launch
+[5.074s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/launch/robot.launch.py
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/lib/arms/arms.py
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/share/ament_index/resource_index/package_run_dependencies/arms
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/share/ament_index/resource_index/parent_prefix_path/arms
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/environment/ament_prefix_path.sh
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/environment/ament_prefix_path.dsv
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/environment/path.sh
+[5.081s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/environment/path.dsv
+[5.082s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/local_setup.bash
+[5.082s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/local_setup.sh
+[5.082s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/local_setup.zsh
+[5.091s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/local_setup.dsv
+[5.091s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/package.dsv
+[5.092s] -- Installing: /home/user/aleena_ws/install/arms/share/ament_index/resource_index/packages/arms
+[5.094s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/cmake/armsConfig.cmake
+[5.095s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/cmake/armsConfig-version.cmake
+[5.098s] -- Installing: /home/user/aleena_ws/install/arms/share/arms/package.xml
+[5.152s] Invoked command in '/home/user/aleena_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aleena_ws/build/arms

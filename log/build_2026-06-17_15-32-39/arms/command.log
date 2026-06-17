@@ -1,0 +1,2 @@
+Invoking command in '/home/user/aleena_ws/build/arms': /usr/bin/cmake /home/user/aleena_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/arms
+Invoked command in '/home/user/aleena_ws/build/arms' returned '1': /usr/bin/cmake /home/user/aleena_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/arms

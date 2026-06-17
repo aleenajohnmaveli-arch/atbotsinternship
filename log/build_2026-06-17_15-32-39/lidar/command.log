@@ -1,0 +1,1 @@
+Invoking command in '/home/user/aleena_ws/build/lidar': /usr/bin/cmake /home/user/aleena_ws/src/lidar -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/lidar

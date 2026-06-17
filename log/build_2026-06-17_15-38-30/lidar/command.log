@@ -1,0 +1,6 @@
+Invoking command in '/home/user/aleena_ws/build/lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aleena_ws/src/lidar -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/lidar
+Invoked command in '/home/user/aleena_ws/build/lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aleena_ws/src/lidar -DCMAKE_INSTALL_PREFIX=/home/user/aleena_ws/install/lidar
+Invoking command in '/home/user/aleena_ws/build/lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aleena_ws/build/lidar -- -j4 -l4
+Invoked command in '/home/user/aleena_ws/build/lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aleena_ws/build/lidar -- -j4 -l4
+Invoking command in '/home/user/aleena_ws/build/lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aleena_ws/build/lidar
+Invoked command in '/home/user/aleena_ws/build/lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aleena_ws/build/lidar
